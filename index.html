@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Registration form</h1>
+            </header>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="username" class="col-sm-4 control-label">Username</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="username" placeholder="required, 5-12 characters">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pasword" class="col-sm-4 control-label">Pasword</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="pasword" placeholder="required, 7-12 characters">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name" class="col-sm-4 control-label">Name</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="name" placeholder="required, letters only">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address" class="col-sm-4 control-label">Address</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="address" placeholder="optional">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="country" class="col-sm-4 control-label">Country</label>
+                        <select class="col-sm-4" id="country" name="required">
+                            <option>Lithuania</option>
+                            <option>Latvia</option>
+                            <option>Estonia</option>
+                            <option>Poland</option>
+                            <option>Germany</option>
+                            <option>France</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="zipcode" class="col-sm-4 control-label">Zip Code</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="zipcode" placeholder="required, numbers only">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-4 control-label">E-mail</label>
+                    <div class="col-sm-4">
+                        <input type="email" class="form-control" id="email" placeholder="required, volid e-mail only">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="sex" class="col-sm-4 control-label">Sex</label>
+                    <div class="col-sm-4">
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Femaile
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="sex" class="col-sm-4 control-label">Language</label>
+                    <div class="col-sm-4">
+                        <input type="radio" name="gender">English
+                        <input type="radio" name="gender">Other
+                    </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-4 col-sm-4">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                  </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
